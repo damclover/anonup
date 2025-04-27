@@ -22,8 +22,8 @@ cd anonup
 If you want to use `anonup` anywhere on your system:
 
 ```bash
-sudo cp anonup.py /usr/local/bin/anonup
-sudo chmod +x /usr/local/bin/anonup
+sudo chmod +x install.sh
+./install.sh
 ```
 
 ✅ Now you can just type `anonup file.txt` from any terminal!
