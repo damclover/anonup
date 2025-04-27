@@ -22,7 +22,7 @@ cd anonup
 If you want to use `anonup` anywhere on your system:
 
 ```bash
-sudo cp anon.py /usr/local/bin/anonup
+sudo cp anonup.py /usr/local/bin/anonup
 sudo chmod +x /usr/local/bin/anonup
 ```
 
@@ -41,7 +41,7 @@ anonup file.txt
 or if running manually:
 
 ```bash
-python3 anon.py file.txt
+python3 anonup.py file.txt
 ```
 
 #### 🔹 Show Help:
