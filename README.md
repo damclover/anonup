@@ -34,6 +34,8 @@ sudo chmod +x install.sh
 
 ### 🚀 Usage
 
+![image](https://github.com/user-attachments/assets/3d9382be-a7b9-4b7c-ad41-bed82c6aedc6)
+
 ```bash
 anonup file.txt
 ```
