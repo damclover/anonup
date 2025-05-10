@@ -34,10 +34,21 @@ sudo chmod +x install.sh
 
 ### 🚀 Usage
 
-![image](https://github.com/user-attachments/assets/063e8ea7-7e68-431d-b4d2-57e617a56a38)
+![image](https://github.com/user-attachments/assets/a7af5414-d2dc-4bfa-8306-bea47693d4fa)
 
 ```bash
 anonup file.txt
+```
+
+Using anonymousfiles.org:
+```bash
+anonup file.txt -s 2
+```
+
+Using Tor Proxys (enable on your system first):
+```bash
+anonup file.txt --tor
+anonup file.txt -s 2 --tor
 ```
 
 or if running manually:
@@ -59,8 +70,11 @@ It will display all usage options and examples.
 ### 📥 Example Output
 
 ```bash
-[+] Upload successful!
-[+] Link: https://www.anonfile.la/D4mCl0v3r
+┌──(root㉿Master)-[/usr/local/bin]
+└─# anonup file.txt -s 2 --tor
+
+[+] Uploaded in anonymousfiles.org using Tor Proxy
+[+] Link: https://anonymousfiles.org/files/D4mCl0v3r
 ```
 
 ---
