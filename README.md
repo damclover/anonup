@@ -72,7 +72,7 @@ It will display all usage options and examples.
 └─# anonup file.txt -s 2 --tor
 
 [+] Uploaded in anonymousfiles.org using Tor Proxy
-[+] Link: https://anonymousfiles.org/files/D10g0D3VL0u
+[+] Link: https://anonymousfiles.org/files/D4mCL0v3r
 ```
 
 ---
