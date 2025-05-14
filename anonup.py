@@ -85,10 +85,10 @@ def upload_anonup(file_path, use_tor=False):
         result = response.json()
         if result.get('success'):
             if use_tor:
-                print("\n[+] Uploaded in anonymousfiles.org using Tor Proxy")
+                print("\n[+] Uploaded in anonfile.la using Tor Proxy")
                 print(f"[+] Link: {result.get('url')}")
             else:
-                print("\n[+] Uploaded in anonymousfiles.org")
+                print("\n[+] Uploaded in anonfile.la")
                 print(f"[+] Link: {result.get('url')}")
         else:
             print("[!] Error in upload:", result.get('message'))
