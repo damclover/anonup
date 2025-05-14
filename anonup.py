@@ -97,7 +97,7 @@ def upload_anonup(file_path, use_tor=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Anonymous uploader - Made by diogodevlou@proton.me",
+        description="Anonymous uploader - Made by damclover@proton.me",
         epilog="e.g. python3 anon.py file.txt -s 2 --tor"
     )
     parser.add_argument('file', help='File to upload')
